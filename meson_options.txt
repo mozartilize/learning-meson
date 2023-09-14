@@ -1,0 +1,8 @@
+option('cluster_name', type: 'string', value: 'conan_pg')
+option('pg_version', type: 'string', value: '15')
+option('pg_port', type: 'string', value: '5432')
+option('host_ip', type: 'string', value: '127.0.0.1')
+option('pg_data_dir', type: 'string', value: '/var/lib/postgresql/data')
+option('network', type: 'string', value: '0.0.0.0/0')
+option('hostname', type: 'string', value: 'conan_pg')
+option('pwd_fp', type: 'string', value: 'pwd')
